@@ -30,23 +30,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global container management and container software market is estimated at **$11.0 billion in 2024–2026** and projected to surge past **$24–$34 billion by 2030–2032** at an estimated CAGR of ~20–25%. The market dynamics are **moderately concentrated to oligopolistic at the infrastructure and runtime tier** (dominated by hyperscalers like Microsoft, Alphabet, and Amazon alongside enterprise linchpins like Red Hat/IBM), while remaining **moderately fragmented across specialized edge, bare-metal orchestration, and niche immutable OS tooling** where agile innovators compete.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Managed Kubernetes Node Images** (AWS EKS AMIs, Azure AKS Node Images, GKE Node Images)  
-
-  Managed cloud providers ship pre-configured container-optimized node images with automatic updates and security patching. Best for teams wanting zero node OS management overhead. Note: these images typically use vendor-specific forks of open-source container OS projects.
+| Platform / Service | Provider | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Azure Kubernetes Service (AKS) Node Images](https://azure.microsoft.com/en-us/products/kubernetes-service)** | Microsoft | **$3.1+ Trillion Market Cap** ($245B+ Annual Revenue) | **$0.10/cluster/hour** (Standard tier cluster management fee; worker nodes billed at underlying Azure VM compute rates starting at ~$0.0104/hr for B1s) | **Free tier available**: 1 cluster free with cluster management fee waived ($0/hr cluster management on Free Tier); pay only for worker VMs. In addition, Azure offers a $200 credit (valid for 30 days) plus 12 months of popular free services for new accounts. | Managed cloud container node images (Ubuntu and Azure Linux / CBL-Mariner) optimized for Kubernetes with automatic patching, node auto-repair, and seamless Azure integrations. |
+| **[Google Kubernetes Engine (GKE) COS](https://cloud.google.com/container-optimized-os)** | Google / Alphabet | **$2.2+ Trillion Market Cap** ($307B+ Annual Revenue) | **$0.10/cluster/hour** (Cluster management fee; worker nodes billed at underlying GCE Compute Engine rates, e.g., e2-micro from ~$0.0084/hr) | **Free tier available**: $74.40 monthly cluster management credit applied per billing account (covers 1 zonal or Autopilot cluster completely free forever). In addition, Google Cloud offers a $300 free trial credit for 90 days. | Google's Container-Optimized OS (COS) pre-installed on managed GKE nodes; immutable, ChromiumOS-derived, security-hardened Linux distribution maintained by Google. |
+| **[Amazon EKS Bottlerocket / AMI](https://aws.amazon.com/eks/)** | Amazon / AWS | **$2.0+ Trillion Market Cap** ($575B+ Annual Revenue) | **$0.10/cluster/hour** (Standard EKS cluster control plane fee; node instances billed at standard EC2 rates, e.g., t4g.nano at ~$0.0042/hr) | **Free trial only**: 12 months free tier on AWS including 750 hours/month of t2.micro or t3.micro EC2 compute; EKS cluster control plane fee ($0.10/hr) has no perpetual free tier. | Pre-configured AMIs featuring Bottlerocket and Amazon Linux with dual-partition updates, no default shell, and tight integration with AWS security services. |
+| **[Red Hat OpenShift Service on AWS (ROSA)](https://aws.amazon.com/rosa/)** | Red Hat / IBM | **$210+ Billion Market Cap** (IBM) / ~$5B+ Annual Revenue (Red Hat) | **$0.25/hour** (Cluster fee for Hosted Control Planes / HCP plus $0.171 per 4 vCPU-hours worker node fee; ROSA Classic has $0 hourly cluster fee, requiring minimum 3 master and 2 worker EC2 instances) | **Free trial only**: 60-day self-managed OpenShift trial on Red Hat Hybrid Cloud Console with full cluster features (underlying cloud infrastructure fees apply). | Managed OpenShift platform powered by immutable RHEL CoreOS (RHCOS) nodes with automated over-the-air updates, SELinux enforcement, and enterprise compliance. |
+| **[Ubuntu Pro for Cloud / Core](https://ubuntu.com/pro)** | Canonical | **$1.5B–$2.0B Est. Valuation** (~$345M Annual Revenue) | **$25.00/machine/year** (Physical workstations) or **$500.00/server/year** (Physical servers); on AWS/Azure/GCP billed as a compute surcharge of ~3% to 4.5% of underlying VM cost (~$0.001–$0.015/hr) | **Free tier available**: Free for up to 5 physical/virtual machines for personal and small-scale use with full 10-year security maintenance and Livepatch. | Enterprise and IoT container-optimized OS management with cryptographic snap confinement, transactional updates, and extended 10–15 year security patching. |
+| **[Talos Omni](https://www.siderolabs.com/platform/saas-omni/)** | Sidero Labs (Yardi) | **~$30M–$50M Est. Valuation** ($7.7M–$8.7M VC raised, acquired by Yardi) | **$1,000.00/node/year** (Commercial / Production tier with 10-node minimum commitment; ~$83.33/node/month) | **Free tier available**: Omni Hobby plan is 100% free forever for up to 10 nodes and 2 user accounts with UI upgrades, WireGuard secure node mesh, and scheduled etcd backups. | Managed SaaS control plane for Talos Linux bare-metal and hybrid Kubernetes clusters, providing API-driven lifecycle management, zero-touch provisioning, and automated upgrades. |
 
 
 
