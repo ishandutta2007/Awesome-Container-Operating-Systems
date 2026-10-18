@@ -70,85 +70,85 @@ The global container management and container software market is estimated at **
 
 ## 📦 Open-Source GitHub Projects (Ranked by Stars)
 
-*All open-source container operating system repositories below are ordered in descending order by GitHub stargazer count. Each star badge links directly to the stargazer community of that repository:*
+*All open-source container operating system repositories below are ordered in descending order by GitHub stargazer count. Each Stars_Badge links directly to the stargazer community of that repository:*
 
-### 1. ❄️ **[NixOS](https://github.com/NixOS/nixpkgs)** [![GitHub stars](https://img.shields.io/github/stars/NixOS/nixpkgs?style=social&color=white)](https://github.com/NixOS/nixpkgs/stargazers)
+### 1. ❄️ **[NixOS](https://github.com/NixOS/nixpkgs)** [![GitHub_Stars](https://img.shields.io/github/stars/NixOS/nixpkgs?style=social&color=white)](https://github.com/NixOS/nixpkgs/stargazers)
 - **License**: MIT
 - **Architecture & Highlights**: Purely functional Linux distribution engineered for deterministic, reproducible system builds. Employs atomic upgrades, cryptographic closures, and instantaneous system rollbacks. Widely deployed alongside immutable container hosts for hermetic system configuration and container image compilation.
 
-### 2. ⚡ **[Talos Linux](https://github.com/siderolabs/talos)** [![GitHub stars](https://img.shields.io/github/stars/siderolabs/talos?style=social&color=white)](https://github.com/siderolabs/talos/stargazers)
+### 2. ⚡ **[Talos Linux](https://github.com/siderolabs/talos)** [![GitHub_Stars](https://img.shields.io/github/stars/siderolabs/talos?style=social&color=white)](https://github.com/siderolabs/talos/stargazers)
 - **License**: MPL-2.0
 - **Architecture & Highlights**: **The modern Kubernetes appliance OS**. Entirely API-driven, immutable, and minimal userland written in Go. Ships with no shell, no SSH daemon, and only 12 userspace binaries. Controlled strictly over gRPC using `talosctl`. Features staged networking, userspace OOM handling, air-gapped registry caching, dual-partition A/B upgrades, and strict SELinux enforcement.
 
-### 3. 🛡️ **[Bottlerocket](https://github.com/bottlerocket-os/bottlerocket)** [![GitHub stars](https://img.shields.io/github/stars/bottlerocket-os/bottlerocket?style=social&color=white)](https://github.com/bottlerocket-os/bottlerocket/stargazers)
+### 3. 🛡️ **[Bottlerocket](https://github.com/bottlerocket-os/bottlerocket)** [![GitHub_Stars](https://img.shields.io/github/stars/bottlerocket-os/bottlerocket?style=social&color=white)](https://github.com/bottlerocket-os/bottlerocket/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: **AWS's container-optimized OS for Amazon EKS and ECS**. Built in Rust with a read-only root filesystem, no interactive shell by default, and cryptographically verified kernel modules. Integrates dual-partition A/B updates, NVIDIA Multi-Instance GPU (MIG) partitioning, and AWS Neuron accelerator support for deep learning workloads.
 
-### 4. 🧰 **[LinuxKit](https://github.com/linuxkit/linuxkit)** [![GitHub stars](https://img.shields.io/github/stars/linuxkit/linuxkit?style=social&color=white)](https://github.com/linuxkit/linuxkit/stargazers)
+### 4. 🧰 **[LinuxKit](https://github.com/linuxkit/linuxkit)** [![GitHub_Stars](https://img.shields.io/github/stars/linuxkit/linuxkit?style=social&color=white)](https://github.com/linuxkit/linuxkit/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: A toolkit initiated by Docker for building custom, minimal, immutable Linux subsystems assembled entirely out of container images. Generates lean bootable appliances (ISO, cloud AMIs, PXE) with read-only root filesystems and sandboxed services.
 
-### 5. 🚜 **[RancherOS](https://github.com/rancher/os)** [![GitHub stars](https://img.shields.io/github/stars/rancher/os?style=social&color=white)](https://github.com/rancher/os/stargazers)
+### 5. 🚜 **[RancherOS](https://github.com/rancher/os)** [![GitHub_Stars](https://img.shields.io/github/stars/rancher/os?style=social&color=white)](https://github.com/rancher/os/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: **Pioneering container host operating system**. Ran everything above the Linux kernel as Docker containers (system Docker and user Docker). Currently in archive / maintain-only mode as modern infrastructure standardizes on CRI-O and containerd runtimes.
 
-### 6. 🪶 **[k3OS](https://github.com/rancher/k3os)** [![GitHub stars](https://img.shields.io/github/stars/rancher/k3os?style=social&color=white)](https://github.com/rancher/k3os/stargazers)
+### 6. 🪶 **[k3OS](https://github.com/rancher/k3os)** [![GitHub_Stars](https://img.shields.io/github/stars/rancher/k3os?style=social&color=white)](https://github.com/rancher/k3os/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: Lightweight Linux appliance built by Rancher exclusively to run and manage K3s clusters. Configured via single cloud-init YAML, with immutable root filesystem and zero local package management overhead.
 
-### 7. 🚀 **[Photon OS](https://github.com/vmware/photon)** [![GitHub stars](https://img.shields.io/github/stars/vmware/photon?style=social&color=white)](https://github.com/vmware/photon/stargazers)
+### 7. 🚀 **[Photon OS](https://github.com/vmware/photon)** [![GitHub_Stars](https://img.shields.io/github/stars/vmware/photon?style=social&color=white)](https://github.com/vmware/photon/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: **VMware's container host OS optimized for hypervisors and cloud platforms**. Features a custom Linux kernel tuned for VMware ESXi performance, `tdnf` package manager, Photon Management Daemon (`pmd`), Cgroup v2, container runtime security, and native support for Docker and Kubernetes.
 
-### 8. 🐋 **[Project Bluefin](https://github.com/ublue-os/bluefin)** [![GitHub stars](https://img.shields.io/github/stars/ublue-os/bluefin?style=social&color=white)](https://github.com/ublue-os/bluefin/stargazers)
+### 8. 🐋 **[Project Bluefin](https://github.com/ublue-os/bluefin)** [![GitHub_Stars](https://img.shields.io/github/stars/ublue-os/bluefin?style=social&color=white)](https://github.com/ublue-os/bluefin/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: Cloud-native, immutable container operating system image built upon Fedora Atomic Desktop and bootc. Provides an atomic, OCI container image update mechanism designed for cloud-native workstations and edge container hosts.
 
-### 9. 🥾 **[bootc](https://github.com/containers/bootc)** [![GitHub stars](https://img.shields.io/github/stars/containers/bootc?style=social&color=white)](https://github.com/containers/bootc/stargazers)
+### 9. 🥾 **[bootc](https://github.com/containers/bootc)** [![GitHub_Stars](https://img.shields.io/github/stars/containers/bootc?style=social&color=white)](https://github.com/containers/bootc/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: **Transactional bootable container images**. Red Hat/Fedora tool that allows full operating systems to be built, shipped, and executed directly as standard OCI container images, enabling GitOps deployment of host operating systems using standard container registries.
 
-### 10. 🧱 **[Kairos](https://github.com/kairos-io/kairos)** [![GitHub stars](https://img.shields.io/github/stars/kairos-io/kairos)](https://github.com/kairos-io/kairos/stargazers)
+### 10. 🧱 **[Kairos](https://github.com/kairos-io/kairos)** [![GitHub_Stars](https://img.shields.io/github/stars/kairos-io/kairos)](https://github.com/kairos-io/kairos/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: **The immutable Linux meta-distribution**. Transforms any Linux distribution (openSUSE, Ubuntu, Alpine, Fedora, Debian) into an immutable, self-updating appliance. Supports P2P distributed cluster installations, cloud-init configuration, and Kubernetes automation for edge computing.
 
-### 11. 🏔️ **[Docker Alpine](https://github.com/alpinelinux/docker-alpine)** [![GitHub stars](https://img.shields.io/github/stars/alpinelinux/docker-alpine?style=social&color=white)](https://github.com/alpinelinux/docker-alpine/stargazers)
+### 11. 🏔️ **[Docker Alpine](https://github.com/alpinelinux/docker-alpine)** [![GitHub_Stars](https://img.shields.io/github/stars/alpinelinux/docker-alpine?style=social&color=white)](https://github.com/alpinelinux/docker-alpine/stargazers)
 - **License**: MIT
 - **Architecture & Highlights**: Official base image infrastructure for **Alpine Linux**, the industry's default ultra-lightweight (~5MB) base for containerized workloads. Relies on `musl libc` and `busybox` for minimal surface area and high vulnerability resilience.
 
-### 12. 🚃 **[Flatcar Container Linux](https://github.com/flatcar/Flatcar)** [![GitHub stars](https://img.shields.io/github/stars/flatcar/Flatcar?style=social&color=white)](https://github.com/flatcar/Flatcar/stargazers)
+### 12. 🚃 **[Flatcar Container Linux](https://github.com/flatcar/Flatcar)** [![GitHub_Stars](https://img.shields.io/github/stars/flatcar/Flatcar?style=social&color=white)](https://github.com/flatcar/Flatcar/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: **The community-driven, production standard for immutable container Linux**. Spiritual successor to CoreOS Container Linux, created by Kinvolk. Read-only `/usr`, automatic Omaha-protocol updates via Update Engine with automatic rollback, SELinux enforcing, Ignition provisioning, and zero package manager. Proven in enterprise deployments managing 20,000+ nodes at Adobe.
 
-### 13. 🏔️ **[Alpine Aports](https://github.com/alpinelinux/aports)** [![GitHub stars](https://img.shields.io/github/stars/alpinelinux/aports?style=social&color=white)](https://github.com/alpinelinux/aports/stargazers)
+### 13. 🏔️ **[Alpine Aports](https://github.com/alpinelinux/aports)** [![GitHub_Stars](https://img.shields.io/github/stars/alpinelinux/aports?style=social&color=white)](https://github.com/alpinelinux/aports/stargazers)
 - **License**: MIT
 - **Architecture & Highlights**: Upstream package build definitions for Alpine Linux. Powers security-hardened container host appliances and minimal base images across the cloud-native ecosystem.
 
-### 14. 🏎️ **[Clear Linux OS](https://github.com/clearlinux/distribution)** [![GitHub stars](https://img.shields.io/github/stars/clearlinux/distribution?style=social&color=white)](https://github.com/clearlinux/distribution/stargazers)
+### 14. 🏎️ **[Clear Linux OS](https://github.com/clearlinux/distribution)** [![GitHub_Stars](https://img.shields.io/github/stars/clearlinux/distribution?style=social&color=white)](https://github.com/clearlinux/distribution/stargazers)
 - **License**: GPL-3.0 / Multi-license
 - **Architecture & Highlights**: Intel-optimized Linux distribution built for high-performance compute and container virtualization. Features stateless system design (`/usr` separated from `/etc` and `/var`) and aggressive AVX-512 compiler optimizations.
 
-### 15. 🛠️ **[CoreOS Assembler (COSA)](https://github.com/coreos/coreos-assembler)** [![GitHub stars](https://img.shields.io/github/stars/coreos/coreos-assembler?style=social&color=white)](https://github.com/coreos/coreos-assembler/stargazers)
+### 15. 🛠️ **[CoreOS Assembler (COSA)](https://github.com/coreos/coreos-assembler)** [![GitHub_Stars](https://img.shields.io/github/stars/coreos/coreos-assembler?style=social&color=white)](https://github.com/coreos/coreos-assembler/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: Primary build and release tooling for Fedora CoreOS and Red Hat Enterprise Linux CoreOS. Assembles bootable OSTree images, cloud AMIs, and bare-metal installer ISOs using containerized build pipelines.
 
-### 16. 🎩 **[Fedora CoreOS Tracker](https://github.com/coreos/fedora-coreos-tracker)** [![GitHub stars](https://img.shields.io/github/stars/coreos/fedora-coreos-tracker?style=social&color=white)](https://github.com/coreos/fedora-coreos-tracker/stargazers)
+### 16. 🎩 **[Fedora CoreOS Tracker](https://github.com/coreos/fedora-coreos-tracker)** [![GitHub_Stars](https://img.shields.io/github/stars/coreos/fedora-coreos-tracker?style=social&color=white)](https://github.com/coreos/fedora-coreos-tracker/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: **Automatically updating, monolithic, minimal container OS**. Successor to CoreOS Container Linux in the Fedora community. Employs `Ignition` for declaration-first boot configuration and `rpm-ostree` for transactional updates. Serves as upstream for RHEL CoreOS.
 
-### 17. 🦎 **[openSUSE Transactional Update](https://github.com/openSUSE/transactional-update)** [![GitHub stars](https://img.shields.io/github/stars/openSUSE/transactional-update?style=social&color=white)](https://github.com/openSUSE/transactional-update/stargazers)
+### 17. 🦎 **[openSUSE Transactional Update](https://github.com/openSUSE/transactional-update)** [![GitHub_Stars](https://img.shields.io/github/stars/openSUSE/transactional-update?style=social&color=white)](https://github.com/openSUSE/transactional-update/stargazers)
 - **License**: GPL-2.0
 - **Architecture & Highlights**: The core transactional engine behind **SUSE MicroOS** and **openSUSE Leap Micro**. Creates isolated Btrfs root filesystem snapshots where updates and packages are staged atomically and activated upon reboot, guaranteeing instantaneous rollbacks if health checks fail.
 
-### 18. 🔴 **[Red Hat Enterprise Linux CoreOS (RHCOS)](https://github.com/openshift/os)** [![GitHub stars](https://img.shields.io/github/stars/openshift/os?style=social&color=white)](https://github.com/openshift/os/stargazers)
+### 18. 🔴 **[Red Hat Enterprise Linux CoreOS (RHCOS)](https://github.com/openshift/os)** [![GitHub_Stars](https://img.shields.io/github/stars/openshift/os?style=social&color=white)](https://github.com/openshift/os/stargazers)
 - **License**: Apache-2.0
 - **Architecture & Highlights**: **Enterprise immutable container host for OpenShift**. Managed declaratively through Kubernetes via the Machine Config Operator. RHCOS 10 introduces multi-OS stream support via `OSStreams` CRD for zero-downtime rolling node migrations, sealed image integrity (fs-verity), and post-quantum cryptographic algorithms.
 
-### 19. 🐧 **[Ubuntu Core](https://github.com/canonical/ubuntu-core-desktop)** [![GitHub stars](https://img.shields.io/github/stars/canonical/ubuntu-core-desktop?style=social&color=white)](https://github.com/canonical/ubuntu-core-desktop/stargazers)
+### 19. 🐧 **[Ubuntu Core](https://github.com/canonical/ubuntu-core-desktop)** [![GitHub_Stars](https://img.shields.io/github/stars/canonical/ubuntu-core-desktop?style=social&color=white)](https://github.com/canonical/ubuntu-core-desktop/stargazers)
 - **License**: GPL-3.0
 - **Architecture & Highlights**: **Minimal, immutable container OS with up to 15 years of security maintenance**. Built entirely from sandboxed, cryptographically-signed snap packages with a tamper-proof measured boot chain. Ideal for edge gateways, smart IoT devices, and distributed AI vision appliances complying with the EU Cyber Resilience Act.
 
-### 20. 🦎 **[SUSE MicroOS Tools](https://github.com/openSUSE/microos-tools)** [![GitHub stars](https://img.shields.io/github/stars/openSUSE/microos-tools?style=social&color=white)](https://github.com/openSUSE/microos-tools/stargazers)
+### 20. 🦎 **[SUSE MicroOS Tools](https://github.com/openSUSE/microos-tools)** [![GitHub_Stars](https://img.shields.io/github/stars/openSUSE/microos-tools?style=social&color=white)](https://github.com/openSUSE/microos-tools/stargazers)
 - **License**: GPL-2.0
 - **Architecture & Highlights**: Setup and orchestration tooling for **SUSE MicroOS**. Configures read-only root filesystems, SELinux policies, ignition support, and container engine runtime orchestration for automated host deployments.
 
